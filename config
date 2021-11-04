@@ -1,0 +1,6 @@
+token = OTAzMzk2MjE0Mzk2MDQ3Mzcw.YXsXSQ.19e-UDcdvpiBG_SYJH0YbwRLLSE
+
+db_driver=com.mysql.cj.jdbc.Driver
+db_connection=jdbc:mysql://localhost/leaderboardbot?useSSL=false
+db_user=leaderboardbot
+db_password=leaderboardbot
