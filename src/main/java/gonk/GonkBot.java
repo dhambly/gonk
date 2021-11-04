@@ -18,7 +18,7 @@ public class GonkBot {
     private static final HashMap<String,MessageChannel> autoGonkChannels = new HashMap<>();
     public static void main(String[] args) throws Exception {
         Properties prop = new Properties();
-        prop.load(new FileInputStream("config"));
+        prop.load(new FileInputStream("config.properties"));
         String token = prop.getProperty("token");
         JDABuilder builder = JDABuilder.createDefault(token);
         builder.addEventListeners(new EventHandler());
